@@ -1,0 +1,7 @@
+<hello name="{{ name }}"></hello>
+
+
+
+<app-child-one *ngIf="toggleComponent"></app-child-one>
+<app-child-two></app-child-two>
+<button (click)="toggleComponent = !toggleComponent">Show / Hide button</button>
