@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, Inject } from '@angular/core';
 import { OnDestroy } from '@angular/core';
 
 @Injectable()
@@ -14,6 +14,4 @@ export class ServiceOneService implements OnDestroy{
   ngOnDestroy() {
     console.log('Service ngOnDestroy');
   }
-
-
 }
