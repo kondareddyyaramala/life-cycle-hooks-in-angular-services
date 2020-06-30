@@ -5,7 +5,6 @@ import { OnDestroy } from '@angular/core';
 export class ServiceOneService implements OnDestroy{
 
   constructor() {
-    console.log('Service constructor');
   }
 
   ngOnInit() {
@@ -15,5 +14,6 @@ export class ServiceOneService implements OnDestroy{
   ngOnDestroy() {
     console.log('Service ngOnDestroy');
   }
+
 
 }

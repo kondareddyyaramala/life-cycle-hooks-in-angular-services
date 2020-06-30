@@ -10,7 +10,6 @@ import { ServiceOneService } from '../service-one.service';
 export class ChildOneComponent implements OnInit {
 
   constructor(private ser: ServiceOneService) {
-    console.log('ChildOneComponent constructor');
   }
 
   ngOnInit() {
