@@ -11,6 +11,7 @@ import { ChildTwoComponent } from './child-two/child-two.component';
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
   declarations: [ AppComponent, HelloComponent, ChildOneComponent, ChildTwoComponent ],
+  providers: [ServiceOneService],
   bootstrap:    [ AppComponent ],
 })
 export class AppModule { }
